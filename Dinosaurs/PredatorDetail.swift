@@ -27,13 +27,21 @@ struct PredatorDetail: View {
                                 ], startPoint: .top, endPoint: .bottom)
                             }
                         //dino image
-                        Image(predator.image)
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: geo.size.width/1.5, height: geo.size.height/3)
-                            .scaleEffect(x: -1)
-                            .shadow(color: .black, radius: 8)
-                            .offset(y: 20)
+                        NavigationLink{
+                            Image(predator.image)
+                                .resizable()
+                                .scaledToFit()
+                                
+                        }label:{
+                            Image(predator.image)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: geo.size.width/1.5, height: geo.size.height/3)
+                                .scaleEffect(x: -1)
+                                .shadow(color: .black, radius: 8)
+                                .offset(y: 20)
+                        }
+                        
                     }
                     VStack(alignment: .leading){
                         // name
