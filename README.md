@@ -35,7 +35,7 @@ Dinosaurs App is a SwiftUI-based mobile application for dinosaur enthusiasts. It
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/dinosaurs-app.git
+   git clone https://github.com/kn00pers/dinosaurs-app.git
    cd dinosaurs-app
    ```
 2. Open the project in Xcode.  
